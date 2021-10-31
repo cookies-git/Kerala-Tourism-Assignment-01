@@ -124,3 +124,11 @@ width: 100%;
   background-image: url(../Images/lake-696098_1920.jpg);
   background-size: cover;
 }
+
+
+@media screen and (min-width: 967px) {
+.hidden-class{
+visibility: hidden;
+
+}
+}
