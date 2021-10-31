@@ -1,0 +1,126 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+img.covergif {
+    opacity: 0.7;
+  }
+  img.covergif:hover {
+    opacity: 1.0;
+  }
+
+.gridtext{
+
+  font-size: xx-large;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+   
+}
+video {
+  width: 100%;
+  height: auto;
+}
+.carouselMar{
+  margin-bottom: 155px;
+}
+
+
+/* 
+font-family: 'EB Garamond', serif;
+font-family: 'Montez', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Scada', sans-serif;
+*/
+
+
+.full-size-img{
+  background-image: url(../Images/bg-collage.jpg);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (min-width: 1300px) {
+.fil-i
+{
+background-image: url(../Images/bg-mural.png);
+background-position: right;
+background-size:contain;
+background-repeat: no-repeat;
+height: 100%;
+width: 100%;
+
+}}
+
+.hoverme:hover {
+
+  color: green;
+  background-color: transparent;
+}
+
+.checkgree:hover{
+
+color: green;
+}
+
+@media screen and (min-width: 967px) {
+.fill-i
+{
+background-image: url(../Images/bg-signup.png);
+background-position: right;
+background-size:contain;
+background-repeat: no-repeat;
+height: 100%;
+width: 100%;
+}
+}
+
+
+
+
+
+/* hover */
+
+
+.imag {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middl {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.contain:hover .imag{
+  opacity: 0.3;
+}
+
+.contain:hover .middl {
+  opacity: 1;
+}
+
+.te {
+  color: white;
+
+}
+
+
+.color-true{
+
+  background-image: url(../Images/lake-696098_1920.jpg);
+  background-size: cover;
+}
