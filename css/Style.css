@@ -126,7 +126,7 @@ width: 100%;
 }
 
 
-@media screen and (min-width: 967px) {
+@media screen and (max-width: 967px) {
 .hidden-class{
 visibility: hidden;
 
