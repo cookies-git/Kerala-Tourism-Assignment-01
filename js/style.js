@@ -6,10 +6,10 @@ function validateFn()
     const fname=document.getElementById("inputFname");                           
     const Sname=document.getElementById("inputSname");
     const Addr=document.getElementById("inputAddress");
-    // const CounC=document.getElementById("inputCountrycode");
+    const CounC=document.getElementById("inputCountrycode");
     const ph=document.getElementById("ph");
-    const ccname=document.getElementById("CountryN");
-    // const ccode=document.getElementById("inputCountrycode");
+    // const ccname=document.getElementById("inputCountrycode");
+    // const none=document.getElementById("none");
     const Pass1=document.getElementById("passwordsignup");
     const Pass2=document.getElementById("passwordsignupc");
     // const checkb=document.getElementById("gridCheck");
@@ -125,6 +125,13 @@ function validateFn()
     // } else{
     //     setSuccessFor(ccname,"");
     // }
+  //   if(ccname.value=="none"){
+  //     setErrorFor(ccname, 'You must select this');
+  //     valid = false;
+  // } else{
+  //     setSuccessFor(ccname,"");
+  // }
+
 
 
 
